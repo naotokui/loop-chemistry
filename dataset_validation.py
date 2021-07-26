@@ -83,7 +83,6 @@ for dirpath in tqdm(dirpaths):
         shutil.move(dirpath, ignore_path)
 
 # %%
-<<<<<<< HEAD
 dirs = glob(selected_path+"/train/*/")
 len(dirs)
 
@@ -97,7 +96,4 @@ random.shuffle(dirs)
 for dirpath in dirs[:NUM_VAL]:
     shutil.move(dirpath, selected_path+'/val')
 # %%
-=======
 
-# %%
->>>>>>> origin/master
